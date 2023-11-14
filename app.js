@@ -15,7 +15,7 @@ const authenticationMiddleware = require("./middleware/auth");
 let url = process.env.MONGO_URI;
 let port = process.env.PORT || 8000;
 app.use(cors());
-app.use(express.static("../public"));
+// app.use(express.static("../public"));
 app.use(express.json());
 app.use("/api/v1/questions", question);
 app.use(notFound);
