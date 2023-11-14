@@ -68,7 +68,7 @@
   {
     "category": "Sports",
     "question": "Which animal represent the logo of Bari football team?",
-    "correct_answer": "2009",
-    "incorrect_answers": ["eagle", "horse", "cockerel"]
+    "correct_answer": "cockerel",
+    "incorrect_answers": ["eagle", "panda", "penguin"]
   }
 ]
