@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Geography",
+    "question": "In which Italian region is Bari located?",
+    "correct_answer": "Apulia",
+    "incorrect_answers": ["Marche", "Campania", "Calabria"]
+  },
+  {
+    "category": "Geography",
+    "question": "Which coast of Italy is Bari on?",
+    "correct_answer": "Adriatic",
+    "incorrect_answers": [
+      "Amalfi Coast",
+      "Riviera delle Palme",
+      "Costa Smeralda"
+    ]
+  },
+  {
+    "category": "History",
+    "question": "When was the Bari Cathedral constructed?",
+    "correct_answer": "between the late 12th and late 13th centuries",
+    "incorrect_answers": [
+      "late 11th century",
+      "between the late 10th and late 11th centuries",
+      "in the 12th century"
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Stylistically, this is an important example of which style?",
+    "correct_answer": "Apulian Romanesque",
+    "incorrect_answers": ["Gothic", "Baroque", "Modern"]
+  },
+  {
+    "category": "Musicals_And_Theatres",
+    "question": "In the 1980s, the theatre hosted two major operatic debuts which contributed to making the city world-famous, which ones?",
+    "correct_answer": "'Iphigénie en Tauride' and 'I Puritani'",
+    "incorrect_answers": [
+      "'Orfeo' and 'L’incoronazione di Poppea'",
+      "'Giasone' and 'Venus and Adonis'",
+      "'The Fairy-Queen' and 'L’Eraclea'"
+    ]
+  },
+  {
+    "category": "Musicals_And_Theatres",
+    "question": "The Petruzzelli, completely destroyed in the 1991, was reconstructed entirely and returned to the city on which year?",
+    "correct_answer": "2009",
+    "incorrect_answers": ["1998", "2020", "2000"]
+  },
+  {
+    "category": "games",
+    "question": "domanda1",
+    "correct_answer": "risposta corretta",
+    "incorrect_answers": ["errata", "errata", "errata"]
+  },
+  {
+    "category": "games",
+    "question": "domanda2",
+    "correct_answer": "risposta corretta",
+    "incorrect_answers": ["errata", "errata", "errata"]
+  },
+  {
+    "category": "Sports",
+    "question": "What is the capacity of the San Nicola Stadium",
+    "correct_answer": "58,270",
+    "incorrect_answers": ["20,510", "30,870", "40,120"]
+  },
+  {
+    "category": "Sports",
+    "question": "Which animal represent the logo of Bari football team?",
+    "correct_answer": "2009",
+    "incorrect_answers": ["eagle", "horse", "cockerel"]
+  }
+]
