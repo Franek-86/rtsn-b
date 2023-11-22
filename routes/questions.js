@@ -5,17 +5,10 @@ const {
   getAllQuestions,
   postQuestion,
   getAllQuestionsStatic,
-  login,
-  userData,
-  register,
+  // userData,
 } = require("../controllers/questions");
 
-router
-  .route("/")
-  .get(authenticationMiddleware, getAllQuestions)
-  .post(postQuestion);
-router.route("/login").post(login);
-router.route("/register").post(register);
-router.route("/rtsn").get(authenticationMiddleware, userData);
+router.route("/").get(getAllQuestions).post(postQuestion);
+// router.route("/rtsn").get(authenticationMiddleware, userData);
 router.route("/static").get(getAllQuestionsStatic);
 module.exports = router;

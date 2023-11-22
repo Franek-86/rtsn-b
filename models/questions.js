@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const QuestionsSchema = new mongoose.Schema({
-  category: {
+  location: {
     type: String,
-    required: [true, "must provide  category name"],
+    required: [true, "must provide  location name"],
     trim: true,
     // maxlength: [20, "name can not be more than 20 characters"],
   },

@@ -1,0 +1,33 @@
+[
+  {
+    "stop": 0,
+    "location": "airport",
+    "text": "Welcome to the Karol Wojtyła Airport of Bari, starting point of our quiz tour trough the wonderful city of Bari. We are in the capital city of the Metropolitan City of Bari and of the Apulia region, on the Adriatic Sea, southern Italy. Are you good in geography? Lets's test it out!",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Bari_airport_departure.jpg/310px-Bari_airport_departure.jpg"
+  },
+  {
+    "stop": 1,
+    "location": "Duomo",
+    "text": "First stop of our tour is the Duomo di Bari or Cattedrale di San Sabino is the cathedral of Bari. The present building was constructed between the late 12th and late 13th centuries, mostly in the last thirty years of the 12th century, and was built on the site of the ruins of the Imperial Byzantine cathedral destroyed in 1156 by William I of Sicily known as the Wicked (il Malo).",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bari_BW_2016-10-19_13-57-32.jpg/1200px-Bari_BW_2016-10-19_13-57-32.jpg"
+  },
+  {
+    "stop": 2,
+    "location": "Theatre",
+    "text": "The Teatro Petruzzelli is the largest theatre of the city of Bari and the fourth Italian theatre by size. In the 1980s, the theatre hosted two major operatic debuts, that of Iphigénie en Tauride by Niccolò Piccinni and the Neapolitan version of Bellini's I Puritani. Both events contributed to making the city world-famous. In addition to operas, ballets, big concerts as well as concerts of light music were presented ",
+    "image": "https://www.bariexperience.com/wp-content/uploads/2019/10/teatro-petruzzelli-teather-bari-puglia-italia-italy-apulia.jpg"
+  },
+  {
+    "stop": 3,
+    "location": "Game",
+    "text": "Before going to a football match why don't we stop for some video games and a beer at the 'Lobby E-Games' pub, are you a video games expert? This quiz requires good knowledge of them as it is not one of the easier of this tour.",
+    "image": "https://play-lh.googleusercontent.com/XL4hDxznD-z3MlWC_7E9uRqWIv_i3-eYKLHZxSJpKAI2z557AvSGk4OFkIbq8SAKmp0"
+  },
+
+  {
+    "stop": 4,
+    "location": "San Nicola",
+    "text": "Welcome to the 'San Nicola' stadium, temple of the glorious SSC Bari football team as well as last stop of our tour trough the amazing city of Bari.",
+    "image": "https://www.ticketone.it/obj/media/IT-eventim/galery/venue/s/stadiosannicola-gallery1.jpg"
+  }
+]

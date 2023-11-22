@@ -2,9 +2,10 @@ const connectDB = require("./connect");
 const express = require("express");
 require("express-async-errors");
 const question = require("./routes/questions");
+const stops = require("./routes/stops");
+const auth = require("./routes/auth");
 const errorHandlerMiddleware = require("./middleware/error-handler");
 const notFound = require("./middleware/not-found");
-
 const app = express();
 require("dotenv").config();
 // extra security packages
@@ -15,9 +16,13 @@ const authenticationMiddleware = require("./middleware/auth");
 let url = process.env.MONGO_URI;
 let port = process.env.PORT || 8000;
 app.use(cors());
-// app.use(express.static("../public"));
+app.use(express.static("../public"));
 app.use(express.json());
-app.use("/api/v1/questions", question);
+// routes
+app.use("/api/v1/auth", auth);
+app.use("/api/v1/stops", stops);
+app.use("/api/v1/quiz", authenticationMiddleware, question);
+
 app.use(notFound);
 app.use(errorHandlerMiddleware);
 
